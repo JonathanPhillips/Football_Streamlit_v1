@@ -14,7 +14,7 @@ This app performs simple webscraping of NFL rushing stats data.
 """)
 
 st.sidebar.header('User Input Features')
-selected_year = st.sidebar.selectbox('Year', list(reversed(range(1990,2021))))
+selected_year = st.sidebar.selectbox('Year', list(reversed(range(1990,2024))))
 
 # Web scraping of NFL player stats
 # https://www.pro-football-reference.com/years/2019/rushing.htm
