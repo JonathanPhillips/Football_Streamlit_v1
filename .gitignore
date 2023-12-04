@@ -1,3 +1,8 @@
 .vscode
 notebooks
 venv
+terraform.tfvars
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+*.yaml
